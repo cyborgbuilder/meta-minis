@@ -1,0 +1,28 @@
+.containerFoot{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #B67CDB;
+}
+.logoFoot{
+    width: 20%;
+}
+.logoFoot img{
+    width: 100%;
+}
+.socialFoot{
+    display: flex;
+}
+
+.textFoot{
+    margin-top: 10px;;
+}
+
+.textFoot p{
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 21px;
+}

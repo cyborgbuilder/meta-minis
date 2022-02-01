@@ -1,0 +1,66 @@
+.containerDev{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.wrapRd{
+    width: 95%;
+}
+
+.headerDev {
+    margin-top: 100px;
+}
+.headerDev h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+}
+
+.content{
+    text-align: left;
+    margin-top: 100px;
+}
+
+.content h1{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.8px;
+}
+
+.content ul li{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.8px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px){
+    .headerDev h1{
+        font-size: 45px;
+    }
+
+    .content h1{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .content ul li{
+        font-size: 13px;
+    }
+    .containerDev{
+        height: 130vh;
+
+    }
+
+    .content{
+        margin-top: 50px;
+    }
+    .headerDev {
+        margin-top: 50px;
+    }
+    
+    
+
+    
+
+}

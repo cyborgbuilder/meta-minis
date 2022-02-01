@@ -1,0 +1,360 @@
+.containerRd{
+    width: 100%;
+    background-color: #91B2F3;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.wrapRd{
+    width: 95%;
+}
+
+.headerRd h1{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 80px;
+    letter-spacing: 1.5px;
+    
+}
+.mapRd{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+
+.leftRd{
+    width: 50%;
+
+}
+
+.rightRd{
+    width: 50%;
+    border-left: 10px solid rgba(187, 184, 33, 0.925);
+    
+}
+
+
+
+.leftDet::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: -20px;
+
+}
+
+.leftPerc{
+
+}
+.leftPerc h1{
+    padding-left: 300px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+.rightDet{
+    position: relative;
+    padding-left: 30px;
+    text-align: left;
+}
+
+
+.rightDet::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: -20px;
+
+}
+.rightDet p{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.1px;
+}
+
+#fivePerc{
+  
+    height: 200px;
+}
+
+#fiveDet{
+    
+    height: 200px;
+    
+}
+.rightPerc{
+
+}
+.rightPerc h1{
+    padding-right: 300px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+#tenDet{
+  
+    height: 150px;
+ 
+}
+
+.leftDet{
+    position: relative;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.leftDet::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: -20px;
+
+}
+
+.leftDet p{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.1px;
+}
+#tenPerc{
+    height: 150px;
+    
+   
+}
+#tenPerc h1{
+   
+}
+
+
+.rightDet h3{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.1px;
+}
+
+.leftDet h3{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.1px;
+}
+
+#twentyPerc{
+ 
+ height: 170px;   
+}
+#twentyDet{
+    
+    height: 170px;   
+}
+
+#twentyPerc h1{
+    margin-top: 40px;   
+} 
+
+#fortyDet{
+    height: 170px;  
+}
+
+#fortyPerc{
+    height: 185px;   
+}
+
+#fortyPerc h1{
+    margin-top: 50px;   
+}
+
+#sixtyPerc{
+    height: 185px;   
+}
+#sixtyPerc h1{
+    margin-top: 60px;
+}
+#sixtyDet{
+    height: 162px; 
+}
+
+#eightyPerc{
+    height: 195px;   
+}
+#eightyPerc h1{
+    margin-top: 70px;
+}
+#eightyDet{
+    height: 162px; 
+    
+}
+
+
+#hundredPerc h1{
+    margin-top: 80px;
+}
+#eightyDet{
+    height: 162px; 
+    
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .wrapRd{
+        width: 100%;
+    }
+
+    .headerRd h1{
+        
+        font-size: 50px;
+        letter-spacing: 1.5px;
+        
+    }
+
+    .mapRd{
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+  
+    .rightRd{
+        border-left: 5px solid rgba(187, 184, 33, 0.925);
+        
+    }
+
+    .leftPerc h1{
+        padding-left: 0;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+
+    
+    .rightDet{
+        padding-left: 20px;
+    }
+    .rightDet p{
+        font-size: 14px;
+    }
+    .rightDet::after{
+      
+        width: 20px;
+        height: 20px;
+        top: 20px;
+        left: -13px;
+        
+    
+    }
+
+    #fivePerc{
+        height: 300px;
+    }
+    
+    #fiveDet{
+        height: 300px;
+
+        
+    }
+    .leftDet{
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    
+
+    .rightPerc h1{
+        padding-right: 0;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+
+    .leftDet p{
+        font-size: 14px;
+    }
+    #tenPerc{
+        height: 240px;
+    }
+    
+    #tenDet{
+        height: 260px;
+        
+    }
+
+    .leftDet::after{
+      
+        width: 20px;
+        height: 20px;
+        top: 14px;
+        right: -13px;
+        
+    
+    }
+
+    .rightDet h3{
+        font-size: 20px;
+    }
+
+    #twentyPerc{
+        height: 270px;   
+       }
+  
+
+    #twentyDet{
+           height: 270px;   
+       }
+
+       #twentyPerc h1{
+        margin-top: 0;   
+    }
+
+    #fortyDet{
+    
+        height: 350px; 
+     
+    }
+    
+    #fortyPerc{
+        
+        height: 350px;   
+    }
+    #fortyPerc h1{
+        margin-top: 30px;   
+    }
+
+    #sixtyPerc{
+        height: 230px;   
+    }
+    #sixtyPerc h1{
+        margin-top: 30px;
+    }
+    #sixtyDet{
+        height: 225px;
+    }
+
+    #eightyPerc{
+        height: 320px;  
+    }
+    #eightyPerc h1{
+        margin-top: 45px;
+    }
+    #eightyDet{
+        height: 300px; 
+    }
+    
+    
+
+    
+
+    
+    
+
+}

@@ -1,0 +1,76 @@
+.containerDis{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+   
+}
+.lineOneDis{
+    width: 100%;
+    display: flex;
+
+}
+
+.lineOneDis img{
+    width: 20%;
+    
+}   
+
+.btnBoxDis{
+    width: 30%;
+    height: 200px;
+    border-radius: 15px;
+    background-color: white;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 520px;
+    
+}
+
+.btnBoxDis button{
+    width: 250px;
+    height: 70px;
+    background-color: #83A9F4;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: blue;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+}
+
+.btnBoxDis button:hover{
+   color: white;
+   border: 2px solid blue;
+}
+
+@media only screen and (max-width: 768px){
+    .lineOneDis img{
+        width: 50%;
+        
+    }
+
+    .containerDis{
+        height: 50vh;
+            
+    }
+
+    .btnBoxDis{
+        width: 60%;
+        height: 150px;
+        top: 125px;
+        left: 90px;
+        
+    }
+
+    .btnBoxDis button{
+        width: 170px;
+        height: 60px;
+        font-size: 17px;
+       
+    }
+    
+}

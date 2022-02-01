@@ -1,0 +1,99 @@
+.containerTeam{
+    width: 100%;
+    height: 280vh;
+    display: flex;
+    justify-content: center;
+    background-color: #1CD1B1;
+}
+
+.wrapTeam{
+    width: 95%;
+}
+
+.headerTeam{
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.headerTeam h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    letter-spacing: 1.5px;
+    padding-left: 55px;
+}
+
+.memTeam{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cardTeam{
+    width: 26%;
+    text-align: left;
+    margin: 50px 50PX;
+    
+
+}
+.cardTeam img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.cardTeam h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 38px;
+    
+    
+}
+
+.cardTeam p{
+    color: white;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .memTeam{
+       margin: 0;
+    }
+
+    .cardTeam h1{
+        font-size: 20px;
+    }
+
+    .cardTeam p{
+        font-size: 16px;
+        
+    }
+
+    .cardTeam{
+      margin: 35px 19px;
+      width: 40%;
+
+    }
+
+    .headerTeam h1{
+        font-size: 35px;
+        padding-left: 20px;
+    }
+
+    .containerTeam{
+        height: 300vh;
+    }
+    
+    
+    
+    
+  
+    
+}

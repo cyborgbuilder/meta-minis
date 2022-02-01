@@ -1,0 +1,157 @@
+.containerR{
+    width: 100%;
+    background-color: #F4AB3E;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.wrapR{
+    width: 95%;
+}
+
+.headerR h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+}
+
+.headerR p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.contentR{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+
+.leftR{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slots{
+    width: 70%;
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 15px;
+    padding: 10px 20px;
+    
+    margin-bottom: 200px;
+}
+
+
+.slot{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slot p{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    
+    
+    
+}
+
+.slot h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+
+}
+.rightR{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sliderR{
+    width: 50%;
+}
+
+
+.rightR .manR{
+    width: 75%;
+    border-radius: 50%;
+    margin-top: 200px;
+}
+
+.rightR .roundR{
+    width: 90%;
+    position: absolute;
+    left: 35px;
+    top: 30px;
+    position: absolute;
+    animation: rotate 15s linear infinite;
+    
+
+}
+
+@keyframes rotate {
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .rightR .manR{
+        width: 60%;
+        margin-top: 120px;
+
+
+    }
+    .rightR{
+        padding: 0;
+        width: 100%;
+    }
+
+    .leftR{
+        width: 100%;
+    }
+    .contentR{
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .rightR .roundR{
+        width: 80%;
+        left: 36px;
+        top: 30px;
+         
+    
+    }
+
+    .headerR h1{
+        font-size: 40px;
+    }
+
+    .headerR p{
+        font-size: 18px;
+    }
+
+    .slots{
+        width: 80%;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    .slot h1{
+        font-size: 25px;
+    
+    }
+
+    .slot p{
+        font-size: 24px;
+        
+    
+    }
+    
+    
+    
+    
+}

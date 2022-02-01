@@ -1,0 +1,67 @@
+.containerCele{
+    width: 100%;
+    height: 90vh;
+    background-color: #91B2F3;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapCele{
+    width: 90%;
+}
+.headerCele{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.headerCele h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+}
+
+.headerCele p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.imageCele{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageCele img{
+    width: 50%;
+    
+}
+
+@media only screen and (max-width: 768px){
+
+    .containerCele{
+       
+        height: 78vh;
+       
+    }
+    
+    .headerCele h1{
+        font-size: 50px;
+    }
+
+    .headerCele p{
+
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .imageCele img{
+        width: 100%;
+        
+    }
+    .imageCele {
+        margin-top: 50px;
+        
+    }
+    
+}

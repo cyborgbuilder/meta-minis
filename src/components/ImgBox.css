@@ -1,0 +1,147 @@
+.containerImgBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+    background: #E7D33C;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+
+    .containerImgBox{
+        height: 220vh;
+    
+    }
+    
+    
+}
+
+.wrapImgBox{
+    width: 95%;
+    display: flex;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapImgBox{
+        flex-direction: column;
+    
+    }
+    
+}
+
+.leftImgBox{
+    width: 50%;
+    flex-wrap: wrap;
+    padding-top: 60px;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+ 
+    .leftImgBox{
+        padding-top: 50px;
+        width: 100%;
+    
+    
+    }
+    
+    
+    
+}
+
+
+.leftImgBox img{
+    width: 36%;
+    border-radius: 15px;
+    margin: 20px;
+    cursor: pointer;
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+    .leftImgBox img{
+        margin:  10px;
+        width: 40%;
+      
+    }
+    
+    
+}
+
+
+.leftImgBox img:hover{
+    transform: scale(1.01);
+}
+
+.rightImgBox {
+    width: 50%;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding-top: 30px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .rightImgBox {
+        width: 100%;
+    
+    }
+    
+    
+}
+
+.rightImgBox h1{
+    margin-top: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+   
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .rightImgBox h1{
+        font-size: 40px;;
+    line-height: 2.1rem;
+       
+    }
+    
+    
+}
+
+.rightImgBox p{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 2.5rem;
+    letter-spacing: 1.5px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+ 
+
+    .rightImgBox p{
+        font-size: 12px;;
+        text-align: center;
+      
+    }
+    
+    
+}
